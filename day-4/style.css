@@ -1,0 +1,19 @@
+h1{
+    color: #000;
+}
+p{
+    color: #e61818;
+}
+.user{
+    color: blue;
+}
+.form{
+    color: orange;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: #e61818;
+    background-color: antiquewhite;
+    
+
+}
