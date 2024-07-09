@@ -1,0 +1,61 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    transition: 2s;
+
+}
+.box:hover{
+    background-color: orange;
+    height: 180px;
+    width: 180px;
+    border-radius: 30%;
+    transition: 2s;
+
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+    transition: 2s;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+
+}
+h1:hover{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-family: sans-serif;
+    background-color: orange;
+    border-radius: 30%;
+    transition: 5s;
+    padding: 2px;
+    margin: 2px;
+
+}
+.master{
+    height: 500px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkturquoise;
+}
+.letter h1{
+    font-family: sans-serif;
+    color: darkgreen;
+}
+@keyframes blink {
+    0%{color: #000;}
+    25%{color: #ce1a1a;}
+    50%{color: #000;}
+    75%{color: #ce1a1a;}
+    100%{color: #000;}
+    
+    
+}
+h1{
+    animation: blink 1s ;
+    animation-iteration-count: infinite;
+}
